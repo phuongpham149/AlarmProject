@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Alarm</string>
+    <string name="action_delete">delete</string>
+    <string name="action_clock">clock</string>
+    <string name="item_alarm_time">13:30</string>
+    <string name="app_alarm">Alarm</string>
+    <string name="add_alarm">Add new alarm</string>
+    <string name="edit_alarm">Edit alarm</string>
+    <string name="delete_alarm">Delete alarm</string>
+    <string name="add_new_alarm_tv_active">Active</string>
+    <string name="add_new_alarm_tv_time_content">13:30</string>
+    <string name="add_new_alarm_tv_repeat">Everyday</string>
+    <string name="add_new_alarm_tv_ringtone_content">Nhc chuông mặc định (Busy Bugs)</string>
+    <string name="add_new_alarm_tv_ringtone">Ringtone</string>
+    <string name="add_new_alarm_tv_repeat_label">Repeat</string>
+    <string name="add_new_alarm_tv_set_time_label">Set time</string>
+    <string name="add_new_alarm_tv_vibrate_label">Vibrate</string>
+    <string name="delete_alarm_btn_cancel">Cancel</string>
+    <string name="delete_alarm_btn_delete">Delete</string>
+    <string name="show_clock_digital_clock">DigitalClock</string>
+    <string name="dialog_time_repeat_tv_monday">Monday</string>
+    <string name="dialog_time_repeat_tv_tuesday">Tuesday</string>
+    <string name="dialog_time_repeat_tv_wednesday">Wednesday</string>
+    <string name="dialog_time_repeat_tv_thursday">Thursday</string>
+    <string name="dialog_time_repeat_tv_friday">Friday</string>
+    <string name="dialog_time_repeat_tv_saturday">Saturday</string>
+    <string name="dialog_time_repeat_tv_sunday">Sunday</string>
+    <string name="menu_add_alarm_save">save</string>
+    <string name="menu_add_alarm_title">delete</string>
+    <string name="action_add_repeat">OK</string>
+    <string name="dialog_caculator_tv_cacu1">-</string>
+    <string name="dialog_caculator_tv_cacu2">+</string>
+    <string name="dialog_caculator_tv_cacu3">=</string>
+    <string name="dialog_caculator_btn_cancel">Cancel</string>
+    <string name="dialog_caculator_btn_ok">OK</string>
+    <string name="broadcast_delete_intent">com.phuong.DELETE_INTENT</string>
+    <string name="broadcast_add_intent">com.phuong.ADD_INTENT</string>
+    <string name="broadcast_edit_intent">com.phuong.EDIT_INTENT</string>
+</resources>

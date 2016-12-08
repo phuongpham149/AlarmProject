@@ -1,0 +1,11 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <stroke
+        android:width="@dimen/item_alarm_stroke_width"
+        android:color="@color/item_alarm_stroke_color" />
+    <padding
+        android:bottom="@dimen/item_alarm_padding_bottom"
+        android:left="@dimen/item_alarm_padding_bottom"
+        android:right="@dimen/item_alarm_padding_bottom"
+        android:top="@dimen/item_alarm_padding_bottom" />
+    <solid android:color="@color/item_alarm_stroke_color" />
+</shape>

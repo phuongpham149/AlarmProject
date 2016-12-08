@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/dialog_time_repeat_width"
+    android:layout_height="@dimen/dialog_time_repeat_height"
+    android:orientation="vertical"
+    android:padding="@dimen/dialog_time_repeat_padding">
+
+    <CheckBox
+        android:id="@+id/cbMonday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dialog_time_repeat_tv_monday"
+        android:textSize="@dimen/dialog_time_repeat_tv_size" />
+
+    <CheckBox
+        android:id="@+id/cbTuesday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dialog_time_repeat_tv_tuesday"
+        android:textSize="@dimen/dialog_time_repeat_tv_size" />
+
+    <CheckBox
+        android:id="@+id/cbWednesday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dialog_time_repeat_tv_wednesday"
+        android:textSize="@dimen/dialog_time_repeat_tv_size" />
+
+    <CheckBox
+        android:id="@+id/cbThursday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dialog_time_repeat_tv_thursday"
+        android:textSize="@dimen/dialog_time_repeat_tv_size" />
+
+    <CheckBox
+        android:id="@+id/cbFriday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dialog_time_repeat_tv_friday"
+        android:textSize="@dimen/dialog_time_repeat_tv_size" />
+
+    <CheckBox
+        android:id="@+id/cbSaturday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dialog_time_repeat_tv_saturday"
+        android:textSize="@dimen/dialog_time_repeat_tv_size" />
+
+    <CheckBox
+        android:id="@+id/cbSunday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dialog_time_repeat_tv_sunday"
+        android:textSize="@dimen/dialog_time_repeat_tv_size" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/add_new_alarm_view_margin_top"
+        android:text="@string/action_add_repeat"
+        android:id="@+id/btnOk"
+        />
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp"
+    android:background="@drawable/shape_item_alarm_row"
+    android:padding="@dimen/item_alarm_padding">
+
+    <TextView
+        android:id="@+id/tvTimeAlarm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/item_alarm_background"
+        android:padding="@dimen/item_alarm_tv_time_padding"
+        android:text="@string/item_alarm_time"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/item_alarm_tv_time_size" />
+
+    <TextView
+        android:id="@+id/tvRepeat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvTimeAlarm"
+        android:layout_marginTop="@dimen/item_alarm_tv_repeat_margin_top"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/item_alarm_tv_repeat_size" />
+
+    <ImageView
+        android:id="@+id/tvStatus"
+        android:layout_width="@dimen/item_alarm_imv_width_height"
+        android:layout_height="@dimen/item_alarm_imv_width_height"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/selected_check_active"
+        android:clickable="true" />
+</RelativeLayout>

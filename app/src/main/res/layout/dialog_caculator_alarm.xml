@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/dialog_time_repeat_padding">
+
+    <TextView
+        android:id="@+id/tvNumber1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/dialog_tv_size" />
+
+    <TextView
+        android:id="@+id/cacu1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dialog_tv_cacu1_margin_left"
+        android:layout_marginStart="@dimen/dialog_tv_cacu1_margin_left"
+        android:layout_toEndOf="@id/tvNumber1"
+        android:layout_toRightOf="@id/tvNumber1"
+        android:text="@string/dialog_caculator_tv_cacu1"
+        android:textSize="@dimen/dialog_tv_size" />
+
+    <TextView
+        android:id="@+id/tvNumber2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dialog_tv_cacu1_margin_left"
+        android:layout_marginStart="@dimen/dialog_tv_cacu1_margin_left"
+        android:layout_toRightOf="@id/cacu1"
+        android:textSize="@dimen/dialog_tv_size" />
+
+    <TextView
+        android:id="@+id/cacu2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dialog_tv_cacu1_margin_left"
+        android:layout_marginStart="@dimen/dialog_tv_cacu1_margin_left"
+        android:layout_toEndOf="@id/tvNumber2"
+        android:layout_toRightOf="@id/tvNumber2"
+        android:text="@string/dialog_caculator_tv_cacu2" />
+
+    <TextView
+        android:id="@+id/tvNumber3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dialog_tv_cacu1_margin_left"
+        android:layout_marginStart="@dimen/dialog_tv_cacu1_margin_left"
+        android:layout_toRightOf="@id/cacu2"
+        android:textSize="@dimen/dialog_tv_size" />
+
+    <TextView
+        android:id="@+id/cacu3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvNumber1"
+        android:text="@string/dialog_caculator_tv_cacu3"
+        android:textSize="@dimen/dialog_tv_size"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cacu3"
+        android:textSize="@dimen/dialog_tv_size"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/result"
+        android:text="@string/dialog_caculator_btn_cancel" />
+
+    <Button
+        android:id="@+id/btnOk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/result"
+        android:layout_toRightOf="@id/btnCancel"
+        android:text="@string/dialog_caculator_btn_ok" />
+</RelativeLayout>

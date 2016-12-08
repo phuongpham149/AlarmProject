@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/add_alarm_background"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/TextViewAddNewAlarm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_new_alarm_tv_active" />
+
+        <CheckBox
+            android:id="@+id/tvCheck"
+            style="@style/ImageButtonAddNewAlarm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@drawable/selected_check_active" />
+
+        <View
+            style="@style/ViewAddNewAlarm"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/add_new_alarm_view_height"
+            android:layout_below="@id/tvCheck" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layoutSetTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvSet"
+            style="@style/TextViewAddNewAlarm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_new_alarm_tv_set_time_label" />
+
+        <TextView
+            android:id="@+id/tvSetTime"
+            style="@style/TextViewContentAddNewAlarm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvSet"
+            android:text="@string/add_new_alarm_tv_time_content" />
+
+        <View
+            style="@style/ViewAddNewAlarm"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/add_new_alarm_view_height"
+            android:layout_below="@id/tvSetTime" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layoutRepeat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvRepeat"
+            style="@style/TextViewAddNewAlarm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_new_alarm_tv_repeat_label" />
+
+        <TextView
+            android:id="@+id/tvRepeatDay"
+            style="@style/TextViewContentAddNewAlarm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvRepeat"
+            android:text="@string/add_new_alarm_tv_repeat" />
+
+        <View
+            style="@style/ViewAddNewAlarm"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/add_new_alarm_view_height"
+            android:layout_below="@id/tvRepeatDay" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layoutRingTone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvRing"
+            style="@style/TextViewAddNewAlarm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_new_alarm_tv_ringtone" />
+
+        <TextView
+            android:id="@+id/tvRington"
+            style="@style/TextViewContentAddNewAlarm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvRing"
+            android:text="@string/add_new_alarm_tv_ringtone_content" />
+
+        <View
+            style="@style/ViewAddNewAlarm"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/add_new_alarm_view_height"
+            android:layout_below="@id/tvRington" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layoutVibrate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvVibrate"
+            style="@style/TextViewAddNewAlarm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_new_alarm_tv_vibrate_label" />
+
+        <View
+            style="@style/ViewAddNewAlarm"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/add_new_alarm_view_height"
+            android:layout_below="@id/tvVibrate"
+            android:layout_marginTop="@dimen/add_new_alarm_view_last_margin_top"
+            android:background="@color/add_alarm_view_background" />
+
+        <CheckBox
+            android:id="@+id/tvVibrateCheck"
+            style="@style/ImageButtonAddNewAlarm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@drawable/selected_check_active" />
+    </RelativeLayout>
+</LinearLayout>

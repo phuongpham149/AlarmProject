@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/add_alarm_background">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycleViewDelete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></android.support.v7.widget.RecyclerView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="@dimen/delete_alarm_width"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/delete_alarm_btn_background"
+            android:text="@string/delete_alarm_btn_cancel"
+            android:textColor="@android:color/white"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@+id/btnDelete"
+            android:layout_width="@dimen/delete_alarm_width"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/delete_alarm_btn_delete_margin_left"
+            android:layout_weight="1"
+            android:background="@color/delete_alarm_btn_background"
+            android:text="@string/delete_alarm_btn_delete"
+            android:textColor="@android:color/white"
+            tools:ignore="ButtonStyle" />
+    </LinearLayout>
+</RelativeLayout>

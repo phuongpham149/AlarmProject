@@ -1,0 +1,32 @@
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="main_tv_add_width_height">80dp</dimen>
+    <dimen name="item_alarm_padding">10dp</dimen>
+    <dimen name="item_alarm_tv_time_padding">5dp</dimen>
+    <dimen name="item_alarm_tv_time_size">25sp</dimen>
+    <dimen name="item_alarm_tv_repeat_size">20sp</dimen>
+    <dimen name="item_alarm_tv_repeat_margin_top">20dp</dimen>
+    <dimen name="item_alarm_stroke_width">4dp</dimen>
+    <dimen name="item_alarm_padding_bottom">7dp</dimen>
+    <dimen name="add_new_alarm_tv_size">20sp</dimen>
+    <dimen name="add_new_alarm_tv_content_margin_right_top">4dp</dimen>
+    <dimen name="add_new_alarm_tv_active_padding">10dp</dimen>
+    <dimen name="add_new_alarm_view_height">1dp</dimen>
+    <dimen name="add_new_alarm_view_margin_top">3dp</dimen>
+    <dimen name="add_new_alarm_view_last_margin_top">15dp</dimen>
+    <dimen name="add_new_alarm_tv_content_padding">10dp</dimen>
+    <dimen name="add_new_alarm_tv_content_size">20sp</dimen>
+    <dimen name="delete_alarm_width">0dp</dimen>
+    <dimen name="delete_alarm_btn_delete_margin_left">20dp</dimen>
+    <dimen name="show_clock_analog_margin_top">200dp</dimen>
+    <dimen name="show_clock_digital_size">25sp</dimen>
+    <dimen name="show_clock_tv_date_size">24sp</dimen>
+    <dimen name="dialog_time_repeat_width">300dp</dimen>
+    <dimen name="dialog_time_repeat_height">400dp</dimen>
+    <dimen name="dialog_time_repeat_padding">20dp</dimen>
+    <dimen name="dialog_time_repeat_tv_size">20sp</dimen>
+    <dimen name="item_alarm_imv_width_height">50dp</dimen>
+    <dimen name="dialog_tv_size">30sp</dimen>
+    <dimen name="dialog_tv_cacu1_margin_left">30dp</dimen>
+</resources>

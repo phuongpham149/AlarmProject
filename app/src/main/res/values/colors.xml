@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#303742</color>
+    <color name="colorPrimaryDark">#374A53</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="main_background">#262626</color>
+    <color name="item_alarm_background">#148676</color>
+    <color name="add_alarm_background">#262626</color>
+    <color name="add_alarm_view_background">#343434</color>
+    <color name="delete_alarm_btn_background">#138475</color>
+    <color name="item_alarm_stroke_color">#353535</color>
+    <color name="show_clock_tv_date">#FFFF5E7C</color>
+</resources>
