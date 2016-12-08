@@ -34,9 +34,9 @@ public class CaculatorActivity extends AppCompatActivity {
         requestWindowFeature(Window.FEATURE_NO_TITLE); //hide activity title
         setContentView(R.layout.dialog_caculator_alarm);
 
-        final TextView tvNumber1 = (TextView) findViewById(R.id.tvNumber1);
-        final TextView tvNumber2 = (TextView) findViewById(R.id.tvNumber2);
-        final TextView tvNumber3 = (TextView) findViewById(R.id.tvNumber3);
+        tvNumber1 = (TextView) findViewById(R.id.tvNumber1);
+        tvNumber2 = (TextView) findViewById(R.id.tvNumber2);
+        tvNumber3 = (TextView) findViewById(R.id.tvNumber3);
         Button btnCancel = (Button) findViewById(R.id.btnCancel);
         Button btnOk = (Button) findViewById(R.id.btnOk);
         final EditText edtResult  = (EditText) findViewById(R.id.result);
@@ -46,7 +46,6 @@ public class CaculatorActivity extends AppCompatActivity {
         int number2 = rd.nextInt(100);
         int number3 = rd.nextInt(100);
 
-        Log.d("TAG11",number1+" 11 "+number2+" 11 "+number3+"   ");
         tvNumber1.setText(String.valueOf(number1));
         tvNumber2.setText(String.valueOf(number2));
         tvNumber3.setText(String.valueOf(number3));
@@ -55,7 +54,6 @@ public class CaculatorActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 int result = Integer.parseInt(tvNumber1.getText().toString()) - Integer.parseInt(tvNumber2.getText().toString()) + Integer.parseInt(tvNumber3.getText().toString());
-                Log.d("TAG111",result+"");
                 if(String.valueOf(result).equals(edtResult.getText().toString())){
                     mp.release();
                     onBackPressed();

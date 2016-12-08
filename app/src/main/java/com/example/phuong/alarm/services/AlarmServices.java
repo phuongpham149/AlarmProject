@@ -78,7 +78,6 @@ public class AlarmServices extends Service {
     public int onStartCommand(Intent intent, int flags, int startId) {
         mAlarms = mDatabaseAlarm.getData();
         accessAlarm(mAlarms);
-        Log.d("TAG","TAG");
         return START_STICKY;
 
     }
@@ -92,17 +91,13 @@ public class AlarmServices extends Service {
 
         int minsNow = minute + hour * 60;
         int minsAlarm = 0;
-        Log.d("TAG11",minsAlarm+" 1 "+minsNow);
         for (int i = 0 ; i<mAlarms.size();i++) {
-            Log.d("TAG12",minsAlarm+" 1 "+minsNow);
             if (("true").equals(String.valueOf(mAlarms.get(i).isStatus()))) {
                 String[] days = mAlarms.get(i).getRepeart().split("[,]");
                 for (int j = 0; j < days.length; j++) {
                     if (Integer.parseInt(days[j].trim()) == date) {
-                        Log.d("TAG13",minsAlarm+" 1 "+minsNow);
                         minsAlarm = Integer.parseInt(mAlarms.get(i).getMin()) + 60 * (Integer.parseInt(mAlarms.get(i).getHour()));
                         if (minsAlarm > minsNow) {
-                            Log.d("TAG14","TAG14");
                             calendar.set(Calendar.HOUR_OF_DAY, Integer.parseInt(mAlarms.get(i).getHour()));
                             calendar.set(Calendar.MINUTE, Integer.parseInt(mAlarms.get(i).getMin()));
                             Intent myIntent = new Intent(AlarmServices.this, AlarmReceiver.class);

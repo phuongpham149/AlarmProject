@@ -49,6 +49,7 @@
         android:layout_marginLeft="@dimen/dialog_tv_cacu1_margin_left"
         android:layout_marginStart="@dimen/dialog_tv_cacu1_margin_left"
         android:layout_toRightOf="@id/cacu2"
+        android:layout_marginTop="@dimen/dialog_tv_cacu2_margin_top"
         android:textSize="@dimen/dialog_tv_size" />
 
     <TextView
