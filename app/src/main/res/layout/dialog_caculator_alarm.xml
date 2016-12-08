@@ -39,6 +39,7 @@
         android:layout_marginStart="@dimen/dialog_tv_cacu1_margin_left"
         android:layout_toEndOf="@id/tvNumber2"
         android:layout_toRightOf="@id/tvNumber2"
+        android:layout_marginTop="@dimen/dialog_tv_cacu2_margin_top"
         android:text="@string/dialog_caculator_tv_cacu2" />
 
     <TextView
